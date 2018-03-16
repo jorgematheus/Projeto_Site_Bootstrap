@@ -1,0 +1,70 @@
+html,body{
+	height: 100%;
+	position: relative;
+}
+h3{
+	pointer-events: none;
+}
+.glyphicon{
+	cursor: pointer;
+}
+.depoimentos{
+	background-color: #0275d8;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	margin-bottom: 0;
+	color: #fff;
+	font-size: 26px;
+}
+.campo-selected, .botoes-radio{
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+}
+.botoes-radio .radio:first-child{
+	margin-top: 0;
+}
+header{
+	background-image: url(../img/castelo.jpg);
+	background-size: cover ;
+	background-position: top center;
+	height: 100%;
+	position: relative;
+}
+header .frase-banner{
+	color:  #fff;
+	background-color: rgba(0,0,0,0.6);
+	width: 80%;
+	padding: 20px;
+	border-radius: 8px;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: .5s;
+}
+header .frase-banner h1{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+footer{
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	margin-top: 10px;
+}
+footer address:last-child{
+	margin-bottom: 0;
+
+}
+.iconInput { position: relative }
+.iconInput input { padding-left: 28px }
+.iconInput span { position: absolute; padding: 9px 10px}
+@media (min-width: 320px){
+	 .texto-jumbotron{
+		margin-bottom: 0;
+		padding-right: 0;
+    	padding-left: 0;
+		padding: 5px 10px;
+	}
+}
